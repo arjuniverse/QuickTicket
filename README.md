@@ -72,7 +72,57 @@ npm run dev
 ```text
 http://localhost:5173
 ```
+## 📁 Project Structure
 
+```text
+QuickTicket/
+├── src/
+│   ├── components/
+│   │   ├── EventListing.jsx      # Browse all events
+│   │   ├── EventDetails.jsx      # Event details and seat selection
+│   │   ├── ETicket.jsx           # E-ticket display with QR code
+│   │   └── MyBookings.jsx        # View and cancel bookings
+│   │
+│   ├── data/
+│   │   └── mockEvents.js         # Mock event data
+│   │
+│   ├── utils/
+│   │   └── storage.js            # localStorage utilities
+│   │
+│   ├── App.jsx                   # Main app component with routing
+│   ├── main.jsx                  # Entry point
+│   └── index.css                 # Global styles
+│
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 📖 Usage
+
+### 1. Browse Events
+
+Click on any event card to view available movies, concerts, buses, or trains.
+
+### 2. Select Seats
+
+Choose your preferred seats from the interactive seat map.
+
+### 3. Book Tickets
+
+Enter the required details and confirm your booking.
+
+### 4. View E-Ticket
+
+Your e-ticket with a generated QR code will be displayed automatically.
+
+### 5. Manage Bookings
+
+Navigate to **My Bookings** to view your existing tickets or cancel upcoming bookings.
+
+---
 ---
 
 ## 📦 Build for Production
